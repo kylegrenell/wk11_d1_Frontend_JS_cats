@@ -1,54 +1,54 @@
 # Quiz
 
-<!-- 1. What does DOM stand for? -->
+1. What does DOM stand for?
 
 Document Object Model
 
-<!-- 2. What is the name of the object we can use to get information about the browser enviroment? -->
+2. What is the name of the object we can use to get information about the browser enviroment?
 
 Browser window
 
-<!-- 3. What is the name of the object that we can use to get access to the DOM representation of the page? -->
+3. What is the name of the object that we can use to get access to the DOM representation of the page?
 
 Document
 
-<!-- 4. What type of files might we see in the Network tab for in Chrome devTools? -->
+4. What type of files might we see in the Network tab for in Chrome devTools?
 
 Stylesheets, images, fonts
 
-<!-- 5. What version of HTML is document.querySelector from? -->
+5. What version of HTML is document.querySelector from?
 
 html 5
 
-<!-- 6. Which event do we hook into when we want to know the DOM has loaded, window.onload or document.onload? -->
+6. Which event do we hook into when we want to know the DOM has loaded, window.onload or document.onload?
 
 window.onload
 
-<!-- 7. We use window.createElement to make new DOM elements, true or false? -->
+7. We use window.createElement to make new DOM elements, true or false?
 
 false... document.createElement
 
-<!-- 8. List two ways to get all the elements by class 'cat' -->
+8. List two ways to get all the elements by class 'cat'
 
 var cats = document.getElementsByClassName('cat');
 var cats = document.querySelectorAll('.cat');
 
-<!-- 9. List two ways to retrieve the element with id "goat" -->
+9. List two ways to retrieve the element with id "goat"
 
 var goats = document.getElementById('goat');
 var goats = document.querySelector('goat');
 
-<!-- 10. List two ways to get all the li elements -->
+10. List two ways to get all the li elements
 
 var lists = document.getElementsByTagName('li'); 
 var lists = document.querySelectorAll('li');
 
-<!-- 11. List two ways to get the first li element -->
+11. List two ways to get the first li element
 
 var listElement = document.getElementsByTagName('list')[0];
 var listElement = document.querySelector( 'li' );
 
-<!-- 12. How can we set the a given element to be hidden? -->
+12. How can we set the a given element to be hidden?
 
 element.style.visibility = 'hidden';
 element.style.display = 'none';
